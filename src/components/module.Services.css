@@ -1,0 +1,28 @@
+.services {
+  padding: 2rem 5rem;
+}
+
+.services .domestic {
+  background-color: #0a9642;
+}
+
+.services .commercial {
+  background-color: #17195a;
+}
+
+.services .installation {
+  border-radius: 3rem;
+  padding: 0 2rem;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vw;
+  min-height: 15rem;
+}
+
+.services .installation h3 {
+  font-weight: 700;
+}

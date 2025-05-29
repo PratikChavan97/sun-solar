@@ -1,0 +1,20 @@
+.pricing {
+  background-color: #fafafa;
+  padding: 2rem 5rem;
+}
+
+.pricing-intro {
+  text-align: center;
+}
+
+.pricing-intro h4 {
+  color: #fe5716;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.pricing-intro h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}

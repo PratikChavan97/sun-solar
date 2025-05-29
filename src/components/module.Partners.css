@@ -1,0 +1,31 @@
+.sponsers {
+  padding: 5rem 0;
+}
+
+.partners {
+  padding: 2rem 5rem;
+  width: 100vw;
+}
+
+.partners h3 {
+  text-transform: uppercase;
+}
+
+.partners-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.partners-gallery img {
+  /* padding: 0.5rem; */
+  height: 8vw;
+  /* border: 1px solid red; */
+  background-color: #fff;
+  border-radius: 3rem;
+  box-shadow: 0 5px 5px 5px gray;
+}

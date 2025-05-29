@@ -1,0 +1,77 @@
+.quote {
+  padding: 2rem 5rem;
+  position: relative;
+}
+
+.quote-container {
+  background-color: #252d6c;
+  border-radius: 3rem;
+  padding: 2rem;
+}
+
+.quote-intro {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.quote-intro h4 {
+  color: #fe5716;
+  font-size: 1rem;
+}
+
+.quote-intro h2 {
+  font-size: 3rem;
+}
+
+.quote-form {
+  background-color: #0a9642;
+  padding: 2rem;
+  border-radius: 2rem;
+  /* margin-top: 5rem; */
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.8rem;
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0;
+}
+
+form textarea {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+form button {
+  border: 0;
+  background-color: #fe5716;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: inherit;
+  border: 2px solid #fe5716;
+}

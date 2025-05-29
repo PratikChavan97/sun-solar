@@ -1,0 +1,25 @@
+.top-header {
+  background-color: #0a9642;
+  padding: 1rem 5rem 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.top-header-left,
+.top-header-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.top-header-links:hover {
+  color: #fe5716;
+}
+
+@media screen and (max-width: 1120px) {
+  .top-header {
+    display: none;
+  }
+}

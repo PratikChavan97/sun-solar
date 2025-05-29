@@ -1,0 +1,11 @@
+.welcome {
+  padding: 2rem 5rem;
+}
+
+.welcome h4 {
+  color: #fe5716;
+}
+
+.welcome .designation {
+  font-weight: bold;
+}
