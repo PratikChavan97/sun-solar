@@ -1,0 +1,44 @@
+.testimonials {
+  padding: 2rem 5rem;
+}
+
+.testimonials h3 {
+  text-transform: uppercase;
+  color: #fe5716;
+  font-size: 1.3rem;
+}
+
+.testimonials h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.testimonials img {
+  border-radius: 50%;
+  height: 25rem;
+}
+
+.review {
+  font-size: 1.6rem;
+  color: gray;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.client i {
+  font-size: 4rem;
+}
+
+.client .name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.client .designation {
+  color: gray;
+  margin-top: -1rem;
+}

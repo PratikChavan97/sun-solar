@@ -18,3 +18,43 @@
   font-weight: bold;
   margin-top: 1rem;
 }
+
+.pricing-card {
+  border: 0.3rem solid #0a9642;
+  border-radius: 3rem;
+  padding: 2rem 0 2rem 2rem;
+}
+
+.pricing-card .currency {
+  color: #0a9642;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.pricing-card .price {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.pricing-card .duration {
+  color: gray;
+}
+
+.pricing button {
+  background-color: #fe5716;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  border: 0;
+}
+
+.pricing button:hover {
+  background-color: inherit;
+  border: 0.1rem solid #fe5716;
+  color: #fe5716;
+}
+
+ul {
+  list-style-image: url("src/assets/pricing/check-mark.png");
+}

@@ -1,0 +1,50 @@
+.consultants {
+  padding: 2rem 5rem;
+  text-align: center;
+}
+
+.consultation-card {
+  border: 0.3rem solid #d9d9d9;
+  border-radius: 3rem;
+  padding: 2rem;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.consultants h4 {
+  text-transform: uppercase;
+  color: #fe5716;
+  font-size: 1.2rem;
+}
+
+.consultants h2 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.consulation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  position: relative;
+  left: -2.5rem;
+  padding: 0.4rem 0 0.4rem 2rem;
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+
+.consultation-number {
+  background-color: #0a9642;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+}
+
+.consultation-number:hover {
+  background-color: #fe5716;
+}

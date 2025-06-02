@@ -12,6 +12,8 @@ import Gallery from "../components/Gallery";
 import News from "../components/News";
 import QuoteForm from "../components/QuoteForm";
 import Pricing from "../components/Pricing";
+import Testimonials from "../components/Testimonials";
+import Consultants from "../components/Consultants";
 
 function Home() {
   return (
@@ -23,6 +25,8 @@ function Home() {
       <Welcome />
       <Gallery />
       <Stats />
+      <Consultants />
+      <Testimonials />
       <Pricing />
       <QuoteForm />
       <News />
